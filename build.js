@@ -91,6 +91,15 @@ function layout(p) {
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/style.css">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2317232B'/%3E%3Crect x='7' y='16' width='5' height='9' fill='%234BA3A0'/%3E%3Crect x='14' y='11' width='5' height='14' fill='%234BA3A0'/%3E%3Crect x='21' y='6' width='5' height='19' fill='%23F0A202'/%3E%3C/svg%3E">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1D76RXMQCK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1D76RXMQCK');
+</script>
 ${jsonld.map((j) => `<script type="application/ld+json">${JSON.stringify(j)}</script>`).join('\n')}
 </head>
 <body>

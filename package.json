@@ -1,0 +1,5 @@
+{
+  "name": "best-ad-network-for-publishers",
+  "private": true,
+  "scripts": { "build": "node build.js" }
+}

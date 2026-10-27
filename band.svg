@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" preserveAspectRatio="xMidYMid slice"><style>
+@keyframes pulse{0%,100%{transform:scaleY(1)}50%{transform:scaleY(.78)}}
+@keyframes flow{to{stroke-dashoffset:-320}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-18px)}}
+.b{transform-box:fill-box;transform-origin:50% 100%;animation:pulse 6s ease-in-out infinite}
+.w{fill:none;stroke-width:2;stroke-dasharray:7 13;animation:flow 22s linear infinite}
+.f{animation:float 9s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){.b,.w,.f{animation:none}}
+</style><defs><radialGradient id="r" cx="85%" cy="20%" r="70%"><stop offset="0" stop-color="#0E6F72" stop-opacity=".55"/><stop offset="1" stop-color="#17232B" stop-opacity="0"/></radialGradient></defs><rect width="1200" height="420" fill="url(#r)"/><path class="w" d="M-50 60 C 200 -10, 420 130, 650 60 S 1000 0, 1250 80" stroke="#4BA3A0" stroke-opacity="0.22" style="animation-duration:18s;animation-direction:normal"/><path class="w" d="M-50 120 C 200 50, 420 190, 650 120 S 1000 60, 1250 140" stroke="#4BA3A0" stroke-opacity="0.22" style="animation-duration:21s;animation-direction:reverse"/><path class="w" d="M-50 180 C 200 110, 420 250, 650 180 S 1000 120, 1250 200" stroke="#F0A202" stroke-opacity="0.5" style="animation-duration:24s;animation-direction:normal"/><path class="w" d="M-50 240 C 200 170, 420 310, 650 240 S 1000 180, 1250 260" stroke="#4BA3A0" stroke-opacity="0.22" style="animation-duration:27s;animation-direction:reverse"/><path class="w" d="M-50 300 C 200 230, 420 370, 650 300 S 1000 240, 1250 320" stroke="#4BA3A0" stroke-opacity="0.22" style="animation-duration:30s;animation-direction:normal"/><path class="w" d="M-50 360 C 200 290, 420 430, 650 360 S 1000 300, 1250 380" stroke="#4BA3A0" stroke-opacity="0.22" style="animation-duration:33s;animation-direction:reverse"/></svg>
